@@ -170,13 +170,13 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>如果你的Spring boot项目不小心被引入了Spring web，但是没有人需要的时候，这时你需要做一些修改</p>
-<a id="more"></a>
+<span id="more"></span>
 
 <h2 id="方案一：在application-yml-Spring配置加入如下信息"><a href="#方案一：在application-yml-Spring配置加入如下信息" class="headerlink" title="方案一：在application.yml Spring配置加入如下信息"></a>方案一：在application.yml Spring配置加入如下信息</h2><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">spring:</span></span><br><span class="line">    <span class="attr">main:</span></span><br><span class="line">      <span class="attr">web-application-type:</span> <span class="string">none</span></span><br></pre></td></tr></table></figure>
 
-<h2 id="方案二：修改你的main方法-使用如下写法"><a href="#方案二：修改你的main方法-使用如下写法" class="headerlink" title="方案二：修改你的main方法,使用如下写法"></a>方案二：修改你的main方法,使用如下写法</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">SpringApplication springApplication = <span class="keyword">new</span> SpringApplication(YourMain<span class="class">.<span class="keyword">class</span>)</span>;</span><br><span class="line">   springApplication.setWebApplicationType(WebApplicationType.NONE);</span><br><span class="line">   springApplication.run(args);</span><br></pre></td></tr></table></figure>
+<h2 id="方案二：修改你的main方法-使用如下写法"><a href="#方案二：修改你的main方法-使用如下写法" class="headerlink" title="方案二：修改你的main方法,使用如下写法"></a>方案二：修改你的main方法,使用如下写法</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">SpringApplication springApplication = <span class="keyword">new</span> SpringApplication(YourMain.class);</span><br><span class="line">   springApplication.setWebApplicationType(WebApplicationType.NONE);</span><br><span class="line">   springApplication.run(args);</span><br></pre></td></tr></table></figure>
 <h2 id="方案三：在maven排除web依赖，但这个方法可能会导致问题"><a href="#方案三：在maven排除web依赖，但这个方法可能会导致问题" class="headerlink" title="方案三：在maven排除web依赖，但这个方法可能会导致问题"></a>方案三：在maven排除web依赖，但这个方法可能会导致问题</h2><h1 id="记录一些遇到该问题坑的框架"><a href="#记录一些遇到该问题坑的框架" class="headerlink" title="记录一些遇到该问题坑的框架"></a>记录一些遇到该问题坑的框架</h1><ol>
-<li><a href="https://github.com/seata/seata" target="_blank" rel="noopener">一个分布式事务框架 seata</a>,PS:分布式事务这个东西个人很不喜欢，还是在设计的时候避免这个玩意儿吧，太坑，要及时更新代码，别希望靠这玩意儿解决技术债。</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/seata/seata">一个分布式事务框架 seata</a>,PS:分布式事务这个东西个人很不喜欢，还是在设计的时候避免这个玩意儿吧，太坑，要及时更新代码，别希望靠这玩意儿解决技术债。</li>
 <li>待补充</li>
 </ol>
 
