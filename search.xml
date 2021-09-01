@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>N卡dp1.3或者1.4无法进入BIOS解决方法</title>
+    <url>/2021/03/15/N%E5%8D%A1dp1-3%E6%88%96%E8%80%851-4%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5BIOS%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<h3 id="连接地址"><a href="#连接地址" class="headerlink" title="连接地址:"></a>连接地址:</h3><p><a href="https://www.nvidia.com/en-us/drivers/nv-uefi-update-x64/">N卡官方地址</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>Hibernate-Validator使用注意事项</title>
     <url>/2021/09/01/Hibernate-Validator%E4%BD%BF%E7%94%A8%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
     <content><![CDATA[<h2 id="注意版本信息"><a href="#注意版本信息" class="headerlink" title="注意版本信息"></a>注意版本信息</h2><ol>
@@ -13,12 +19,6 @@
 <h2 id="配置相关"><a href="#配置相关" class="headerlink" title="配置相关"></a>配置相关</h2><ol>
 <li>不需要在spring的配置文件加入配置信息直接使用注解即可</li>
 </ol>
-]]></content>
-  </entry>
-  <entry>
-    <title>N卡dp1.3或者1.4无法进入BIOS解决方法</title>
-    <url>/2021/03/15/N%E5%8D%A1dp1-3%E6%88%96%E8%80%851-4%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5BIOS%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<h3 id="连接地址"><a href="#连接地址" class="headerlink" title="连接地址:"></a>连接地址:</h3><p><a href="https://www.nvidia.com/en-us/drivers/nv-uefi-update-x64/">N卡官方地址</a></p>
 ]]></content>
   </entry>
   <entry>
