@@ -6,17 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>openJDK 在fedora的构建 | LAmouse的博客</title>
+  <title>Hibernate-Validator使用注意事项 | LAmouse的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="通过hg下载源代码1hg clone http:&#x2F;&#x2F;hg.openjdk.java.net&#x2F;jdk&#x2F;jdk11">
+  <meta name="description" content="注意版本信息 validator-6.x uses javax.validation:validation-api-2.0.x. validator-5.x uses javax.validation:validation-api-1.1.Final.  注意BindingResult顺序 顺序一定要是@Validated 验证的参数 BindingResult bindingResult，否则会">
 <meta property="og:type" content="article">
-<meta property="og:title" content="openJDK 在fedora的构建">
-<meta property="og:url" content="http://yoursite.com/2020/03/01/openJDK-%E5%9C%A8fedora%E7%9A%84%E6%9E%84%E5%BB%BA/index.html">
+<meta property="og:title" content="Hibernate-Validator使用注意事项">
+<meta property="og:url" content="http://yoursite.com/2021/09/01/Hibernate-Validator%E4%BD%BF%E7%94%A8%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/index.html">
 <meta property="og:site_name" content="LAmouse的博客">
-<meta property="og:description" content="通过hg下载源代码1hg clone http:&#x2F;&#x2F;hg.openjdk.java.net&#x2F;jdk&#x2F;jdk11">
+<meta property="og:description" content="注意版本信息 validator-6.x uses javax.validation:validation-api-2.0.x. validator-5.x uses javax.validation:validation-api-1.1.Final.  注意BindingResult顺序 顺序一定要是@Validated 验证的参数 BindingResult bindingResult，否则会">
 <meta property="og:locale" content="zh">
-<meta property="article:published_time" content="2020-03-01T09:26:34.000Z">
-<meta property="article:modified_time" content="2020-11-09T09:22:18.947Z">
+<meta property="article:published_time" content="2021-09-01T15:11:28.000Z">
+<meta property="article:modified_time" content="2021-09-01T15:51:28.781Z">
 <meta property="article:author" content="LAmouse">
 <meta property="article:tag" content="java">
 <meta property="article:tag" content=" c&#x2F;c++">
@@ -155,32 +155,36 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-openJDK-在fedora的构建" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-Hibernate-Validator使用注意事项" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      openJDK 在fedora的构建
+      Hibernate-Validator使用注意事项
     </h1>
   
 
         
-        <a href="/2020/03/01/openJDK-%E5%9C%A8fedora%E7%9A%84%E6%9E%84%E5%BB%BA/" class="archive-article-date">
-  	<time datetime="2020-03-01T09:26:34.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-01</time>
+        <a href="/2021/09/01/Hibernate-Validator%E4%BD%BF%E7%94%A8%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/" class="archive-article-date">
+  	<time datetime="2021-09-01T15:11:28.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-09-01</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h5 id="通过hg下载源代码"><a href="#通过hg下载源代码" class="headerlink" title="通过hg下载源代码"></a>通过hg下载源代码</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hg clone http:&#x2F;&#x2F;hg.openjdk.java.net&#x2F;jdk&#x2F;jdk11</span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<p>如果没有openjdk10或者11到openjdk官网下载一个即可<br>如果因为出现编译失败添加参数–disable-warnings-as-errors</p>
-<h5 id="执行如下脚本"><a href="#执行如下脚本" class="headerlink" title="执行如下脚本"></a>执行如下脚本</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.&#x2F;configure --with-boot-jdk&#x3D;&quot;openjdk10或者11的安装目录&quot; --disable-warnings-as-errors</span><br></pre></td></tr></table></figure>
+        <h2 id="注意版本信息"><a href="#注意版本信息" class="headerlink" title="注意版本信息"></a>注意版本信息</h2><ol>
+<li><code>validator-6.x</code> uses <code>javax.validation:validation-api-2.0.x</code>.</li>
+<li><code>validator-5.x</code> uses <code>javax.validation:validation-api-1.1.Final</code>.</li>
+</ol>
+<h2 id="注意BindingResult顺序"><a href="#注意BindingResult顺序" class="headerlink" title="注意BindingResult顺序"></a>注意BindingResult顺序</h2><ol>
+<li>顺序一定要是@Validated 验证的参数 BindingResult bindingResult，否则会出现魔幻bug</li>
+</ol>
+<h2 id="配置相关"><a href="#配置相关" class="headerlink" title="配置相关"></a>配置相关</h2><ol>
+<li>不需要在spring的配置文件加入配置信息直接使用注解即可</li>
+</ol>
 
       
 
@@ -239,7 +243,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/03/01/openJDK-%E5%9C%A8fedora%E7%9A%84%E6%9E%84%E5%BB%BA/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2021/09/01/Hibernate-Validator%E4%BD%BF%E7%94%A8%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -253,15 +257,20 @@
   
 <nav id="article-nav">
   
-    <a href="/2020/09/15/gperftools%E7%9A%84%E4%BD%BF%E7%94%A8/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2022/08/20/socket%E7%BC%96%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%97%AE%E9%A2%98/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          gperftools的使用
+          socket编程中的问题
         
       </div>
     </a>
   
+  
+    <a href="/2021/03/24/windows%E8%93%9D%E5%B1%8F%E5%88%86%E6%9E%90/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">windows蓝屏分析</div>
+      <i class="icon-circle-right"></i>
+    </a>
   
 </nav>
 
@@ -286,7 +295,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-5"><a class="toc-link" href="#通过hg下载源代码"><span class="toc-number">1.</span> <span class="toc-text">通过hg下载源代码</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#执行如下脚本"><span class="toc-number">2.</span> <span class="toc-text">执行如下脚本</span></a></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#注意版本信息"><span class="toc-number">1.</span> <span class="toc-text">注意版本信息</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#注意BindingResult顺序"><span class="toc-number">2.</span> <span class="toc-text">注意BindingResult顺序</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#配置相关"><span class="toc-number">3.</span> <span class="toc-text">配置相关</span></a></li></ol>
                     </div>
                 </span>
             </div>
