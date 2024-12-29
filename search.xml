@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello Halo</title>
+    <url>/2022/09/05/Hello%20Halo-hello-halo/</url>
+    <content><![CDATA[<h2 id="Hello-Halo"><a href="#Hello-Halo" class="headerlink" title="Hello Halo"></a>Hello Halo</h2><p>如果你看到了这一篇文章，那么证明你已经安装成功了，感谢使用 <a href="https://halo.run">Halo</a> 进行创作，希望能够使用愉快。</p>
+<h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><ul>
+<li>官网：<a href="https://halo.run">https://halo.run</a></li>
+<li>文档：<a href="https://docs.halo.run">https://docs.halo.run</a></li>
+<li>社区：<a href="https://bbs.halo.run">https://bbs.halo.run</a></li>
+<li>主题仓库：<a href="https://halo.run/themes.html">https://halo.run/themes.html</a></li>
+<li>开源地址：<a href="https://github.com/halo-dev/halo">https://github.com/halo-dev/halo</a></li>
+</ul>
+<p>在使用过程中，有任何问题都可以通过以上链接找寻答案，或者联系我们。</p>
+<blockquote>
+<p>这是一篇自动生成的文章，请删除这篇文章之后开始你的创作吧！</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Hibernate-Validator使用注意事项</title>
+    <url>/2021/09/01/Hibernate-Validator%E4%BD%BF%E7%94%A8%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
+    <content><![CDATA[<h2 id="注意版本信息"><a href="#注意版本信息" class="headerlink" title="注意版本信息"></a>注意版本信息</h2><ol>
+<li><code>validator-6.x</code> uses <code>javax.validation:validation-api-2.0.x</code>.</li>
+<li><code>validator-5.x</code> uses <code>javax.validation:validation-api-1.1.Final</code>.</li>
+</ol>
+<h2 id="注意BindingResult顺序"><a href="#注意BindingResult顺序" class="headerlink" title="注意BindingResult顺序"></a>注意BindingResult顺序</h2><ol>
+<li>顺序一定要是@Validated 验证的参数 BindingResult bindingResult，否则会出现魔幻bug</li>
+</ol>
+<h2 id="配置相关"><a href="#配置相关" class="headerlink" title="配置相关"></a>配置相关</h2><ol>
+<li>不需要在spring的配置文件加入配置信息直接使用注解即可</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hibernate-Validator使用注意事项</title>
+    <url>/2021/09/01/Hibernate-Validator%E4%BD%BF%E7%94%A8%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9-hibernate-validator%E4%BD%BF%E7%94%A8%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
+    <content><![CDATA[<h2 id="注意版本信息"><a href="#注意版本信息" class="headerlink" title="注意版本信息"></a>注意版本信息</h2><ol>
+<li><code>validator-6.x</code> uses <code>javax.validation:validation-api-2.0.x</code>.</li>
+<li><code>validator-5.x</code> uses <code>javax.validation:validation-api-1.1.Final</code>.</li>
+</ol>
+<h2 id="注意BindingResult顺序"><a href="#注意BindingResult顺序" class="headerlink" title="注意BindingResult顺序"></a>注意BindingResult顺序</h2><ol>
+<li>顺序一定要是@Validated 验证的参数 BindingResult bindingResult，否则会出现魔幻bug</li>
+</ol>
+<h2 id="配置相关"><a href="#配置相关" class="headerlink" title="配置相关"></a>配置相关</h2><ol>
+<li>不需要在spring的配置文件加入配置信息直接使用注解即可</li>
+</ol>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>N卡dp1.3或者1.4无法进入BIOS解决方法</title>
+    <url>/2021/03/15/N%E5%8D%A1dp13%E6%88%96%E8%80%8514%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5BIOS%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95-n%E5%8D%A1dp13%E6%88%96%E8%80%8514%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5bios%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<h3 id="连接地址"><a href="#连接地址" class="headerlink" title="连接地址:"></a>连接地址:</h3><p><a href="https://www.nvidia.com/en-us/drivers/nv-uefi-update-x64/">N卡官方地址</a></p>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Nerd字体</title>
+    <url>/2022/11/08/Nerd%E5%AD%97%E4%BD%93-nerd-font/</url>
+    <content><![CDATA[<ol>
+<li><a href="https://www.nerdfonts.com/font-downloads">一个网站</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>SELinux的docker权限问题</title>
+    <url>/2022/11/10/SELinux%E7%9A%84docker%E6%9D%83%E9%99%90%E9%97%AE%E9%A2%98-selinux-docker-privileged/</url>
+    <content><![CDATA[<p><a href="https://www.redhat.com/sysadmin/container-permission-denied-errors">说明</a><br>在不能关闭SELinux的情况下可以在dockers启动命令中加入 –privileged<br>在使用–privileged Container无法重启，依旧提示没有权限，暂时先关闭SELinux<br><code># getenforce</code>可以查看SELinux状态，如果是Enforcing，修改/etc/sysconfig/selinux中的<code>SELINUX=enforcing</code>为<code>SELINUX=disabled</code></p>
+]]></content>
+      <categories>
+        <category>Linux系统相关</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>N卡dp1.3或者1.4无法进入BIOS解决方法</title>
+    <url>/2021/03/15/N%E5%8D%A1dp1-3%E6%88%96%E8%80%851-4%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5BIOS%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<h3 id="连接地址"><a href="#连接地址" class="headerlink" title="连接地址:"></a>连接地址:</h3><p><a href="https://www.nvidia.com/en-us/drivers/nv-uefi-update-x64/">N卡官方地址</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Windows Terminal oh-my-posh美化</title>
+    <url>/2022/10/31/Windows%20Terminal%20oh-my-posh%E7%BE%8E%E5%8C%96-windowsterminaloh-my-posh%E7%BE%8E%E5%8C%96/</url>
+    <content><![CDATA[<ol>
+<li>微软商店搜索安装on my posh</li>
+<li>打开Windows Terminal JSON设置</li>
+<li>在defaults配置添加以下内容</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&quot;useAcrylic&quot; : true,</span><br><span class="line">&quot;acrylicOpacity&quot; : 0.4,</span><br><span class="line">&quot;font&quot;: </span><br><span class="line">&#123;</span><br><span class="line">	&quot;face&quot;: &quot;MesloLGS Nerd Font Mono&quot;,</span><br><span class="line">	&quot;size&quot;: 12</span><br><span class="line">&#125;,</span><br><span class="line">&quot;backgroundImage&quot;: &quot;背景图片路径&quot;, </span><br><span class="line">&quot;backgroundImageOpacity&quot;: 0.4</span><br><span class="line">````</span><br><span class="line"></span><br><span class="line">4. 在power shell中输入</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>notepad $PROFILE</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">5.  添加以下内容到打开的文件</span><br></pre></td></tr></table></figure>
+<p>oh-my-posh init pwsh –config $env:POSH_THEMES_PATH\montys.omp.json | Invoke-Expression</p>
+<p>```<br>如果出现乱码安装Nerd字体， 可以从<a href="https://github.com/ryanoasis/nerd-fonts/blob/master/readme.md">这里</a>挑选一款喜欢的字体</p>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>MySQL事务隔离级别</title>
+    <url>/2022/11/09/MySQL%E4%BA%8B%E5%8A%A1%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB-mysql-shi-wu-ge-li-ji-bie/</url>
+    <content><![CDATA[<p><a href="https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html">官网说明</a></p>
+]]></content>
+      <categories>
+        <category>数据库相关</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Mysql8 关于IP的问题</title>
+    <url>/2022/11/09/Mysql8%20%E5%85%B3%E4%BA%8EIP%E7%9A%84%E9%97%AE%E9%A2%98-mysql8aboutbindip/</url>
+    <content><![CDATA[<ol>
+<li>Fedora安装MySQL8的时候由于默认绑定的ip为IPv6，特此记录一下。</li>
+<li><a href="https://dev.mysql.com/doc/refman/8.0/en/ipv6-server-config.html">官方说明</a> </li>
+</ol>
+]]></content>
+      <categories>
+        <category>数据库相关</category>
+      </categories>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2024/12/29/Windows%20Terminal%20oh-my-posh%E7%BE%8E%E5%8C%96/</url>
+    <content><![CDATA[<ol>
+<li>微软商店搜索安装on my posh</li>
+<li>打开Windows Terminal JSON设置</li>
+<li>在defaults配置添加以下内容</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&quot;useAcrylic&quot; : true,</span><br><span class="line">&quot;acrylicOpacity&quot; : 0.4,</span><br><span class="line">&quot;font&quot;: </span><br><span class="line">&#123;</span><br><span class="line">	&quot;face&quot;: &quot;MesloLGS Nerd Font Mono&quot;,</span><br><span class="line">	&quot;size&quot;: 12</span><br><span class="line">&#125;,</span><br><span class="line">&quot;backgroundImage&quot;: &quot;背景图片路径&quot;, </span><br><span class="line">&quot;backgroundImageOpacity&quot;: 0.4</span><br><span class="line">````</span><br><span class="line"></span><br><span class="line">4. 在power shell中输入</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>notepad $PROFILE</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">5.  添加以下内容到打开的文件</span><br></pre></td></tr></table></figure>
+<p>oh-my-posh init pwsh –config $env:POSH_THEMES_PATH\montys.omp.json | Invoke-Expression</p>
+<p>```<br>如果出现乱码安装Nerd字体， 可以从<a href="https://github.com/ryanoasis/nerd-fonts/blob/master/readme.md">这里</a>挑选一款喜欢的字体</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Windows terminal添加msys2</title>
+    <url>/2022/10/29/Windows%20terminal%E6%B7%BB%E5%8A%A0msys2-windowsterminaladdmsys2/</url>
+    <content><![CDATA[<ol>
+<li>打开Windows terminal 添加新的配置文件</li>
+<li>新建空配置文件</li>
+<li>在命令行中选择msys2的安装目录中的msys2_shell.cmd</li>
+<li>确认之后在后面添加<br><code>-defterm -no-start -use-full-path -here -mingw64</code></li>
+<li>添加完成之后打开的msys2就会在当前目录打开了</li>
+<li>如果msys2想使用zsh那么修改msys2_shell.cmd中的<br><code>set &quot;LOGINSHELL=zsh&quot;</code></li>
+<li>为了解决utf-8乱码问题需要在.zshrc（或者其他sh中的配置文件）中添加chcp.com 65001</li>
+</ol>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>c++ shader_ptr的一个内存泄漏问题</title>
+    <url>/2023/04/14/c++%20shader_ptr%E7%9A%84%E4%B8%80%E4%B8%AA%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F%E9%97%AE%E9%A2%98-shaderptrmemoryleak/</url>
+    <content><![CDATA[<p>不要以为使用 shader_ptr可以避免内存泄漏。下面是一个泄漏的例子</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;memory&gt;</span><br><span class="line">#include &lt;iostream&gt;</span><br><span class="line"></span><br><span class="line">class Swapchain</span><br><span class="line">&#123;</span><br><span class="line">public:</span><br><span class="line">    ~Swapchain()&#123;::std::cout &lt;&lt; &quot;destroy&quot; &lt;&lt; ::std::endl;&#125;;</span><br><span class="line">    Swapchain(sampleCount, ::std::shared_ptr&lt;Swapchain&gt; oldSwapchain = nullptr)</span><br><span class="line">    &#123;</span><br><span class="line">    	this-&gt;oldSwapchain = oldSwapchain;</span><br><span class="line">        oldSwapchain = nullptr;</span><br><span class="line">    &#125;;</span><br><span class="line">    </span><br><span class="line"></span><br><span class="line">private:</span><br><span class="line">    ::std::shared_ptr&lt;Swapchain&gt; oldSwapchain;</span><br><span class="line">    int menory[100];</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">   ::std::unique_prt ptr = ::std::make_unique&lt;Swapchain&gt;();</span><br><span class="line">    </span><br><span class="line">    for(int i = 0; i &lt; 1000; i++&#125;</span><br><span class="line">    &#123;</span><br><span class="line">    	ptr = ::std::make_unique&lt;Swapchain&gt;(ptr);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>由于参数名和成员名一样， 构造函数只是将参数oldSwapchain设置为null，但是成员oldSwapchain依旧保留shared_ptr的引用，参数传入进来的Swapchain会像列表一样存在，他们将会保存到成员的oldSwapchain中，这样就完成了一个隐式内存泄漏，valgrind根本没办法检测出这种内存泄漏，使用shared_ptr切记要注意这些问题，Java也有可能遇到这种问题</p>
+]]></content>
+      <categories>
+        <category>c/c++</category>
+      </categories>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2024/12/29/Windows%20terminal%E6%B7%BB%E5%8A%A0msys2/</url>
+    <content><![CDATA[<ol>
+<li>打开Windows terminal 添加新的配置文件</li>
+<li>新建空配置文件</li>
+<li>在命令行中选择msys2的安装目录中的msys2_shell.cmd</li>
+<li>确认之后在后面添加<br><code>-defterm -no-start -use-full-path -here -mingw64</code></li>
+<li>添加完成之后打开的msys2就会在当前目录打开了</li>
+<li>如果msys2想使用zsh那么修改msys2_shell.cmd中的<br><code>set &quot;LOGINSHELL=zsh&quot;</code></li>
+<li>为了解决utf-8乱码问题需要在.zshrc（或者其他sh中的配置文件）中添加chcp.com 65001</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>cmake vcpkg mingw的使用</title>
+    <url>/2023/09/15/cmake%20vcpkg%20mingw%E7%9A%84%E4%BD%BF%E7%94%A8-cmakevcpkgmingw-de-shi-yong/</url>
+    <content><![CDATA[<ol>
+<li>vcpkg安装包的时候指定TRIPLET类似<br><code>vcpkg install glm:x64-mingw-dynamic</code><br>冒号后面确定了可以进行链接的工具mingw说明需要使用64位mingw链接</li>
+<li>cmake 生成参数添加<br><code>-DVCPKG_TARGET_TRIPLET=x64-mingw-dynamic -DCMAKE_TOOLCHAIN_FILE=D:/Program/vcpkg/scripts/buildsystems/vcpkg.cmake</code></li>
+<li>第二种方式在cmakelist.txt文件project()前面加入如下代码<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">if(WIN32)</span><br><span class="line">        if(CMAKE_C_COMPILER MATCHES &quot;gcc.exe&quot; OR CMAKE_CXX_COMPILER MATCHES &quot;g\\+\\+.exe&quot;)</span><br><span class="line">                message(STATUS &quot;Building with mingw&quot;)</span><br><span class="line">                set(VCPKG_TARGET_TRIPLET &quot;x64-mingw-dynamic&quot; CACHE STRING &quot;target triplet&quot; FORCE)</span><br><span class="line">        endif()</span><br><span class="line">endif()</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>c/c++</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>c和cpp的一个问题</title>
+    <url>/2020/12/25/c%E5%92%8Ccpp%E7%9A%84%E4%B8%80%E4%B8%AA%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h4 id="先上代码"><a href="#先上代码" class="headerlink" title="先上代码"></a>先上代码</h4><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">a</span><span class="params">()</span>&#123;&#125; <span class="comment">//none return </span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">auto</span> r = a();</span><br><span class="line">    <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; r &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>这个代码在(Homebrew gcc 10.2)不开启-Wall -Werror是可以编译的</li>
+<li>r的值每次执行都不一样</li>
+<li><a href="https://stackoverflow.com/questions/32513793/c-and-c-functions-without-a-return-statement">一些解释</a></li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>docker gitlab</title>
+    <url>/2022/11/10/docker%20gitlab-dockergitlab/</url>
+    <content><![CDATA[<p>做个备份<a href="https://docs.gitlab.com/ee/install/docker.html">官方地址</a>，记得把部署命令中的ee版本改为ce版本, 因为懒得修改gitlab的ssh port所以修改了系统的sshd port<br>修改gitlab.rb中的</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">external_url &#x27;你的地址&#x27;</span><br><span class="line">nginx[&#x27;enable&#x27;] = true</span><br><span class="line">nginx[&#x27;listen_port&#x27;] = 8001</span><br><span class="line">nginx[&#x27;listen_https&#x27;] = false</span><br></pre></td></tr></table></figure>
+<p>之所以这样些而不是用url:port的方式主要是因为使用了nginxproxymanage代理了gitlab，并且启用了https，不希望gitlab中的http(s)克隆地址出现端口号<br><a href="https://docs.gitlab.com/omnibus/settings/ssl/index.html#configure-https-manually">官网说明</a><br>重新部署gitlab</p>
+<pre><code>docker run --detach \
+  --publish 8001:8001 --publish 22:22 \
+  --name gitlab \
+  --restart always \
+  --volume /root/.docker/gitlab/config:/etc/gitlab \
+  --volume /root/.docker/gitlab/logs:/var/log/gitlab \
+  --volume /root/.docker/gitlab/data:/var/opt/gitlab \
+  gitlab/gitlab-ce:latest</code></pre>]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>c和cpp的一个问题</title>
+    <url>/2020/12/25/c%E5%92%8Ccpp%E7%9A%84%E4%B8%80%E4%B8%AA%E9%97%AE%E9%A2%98-c%E5%92%8Ccpp%E7%9A%84%E4%B8%80%E4%B8%AA%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h4 id="先上代码"><a href="#先上代码" class="headerlink" title="先上代码"></a>先上代码</h4><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">a</span><span class="params">()</span>&#123;&#125; <span class="comment">//none return </span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">auto</span> r = a();</span><br><span class="line">    <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; r &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>这个代码在(Homebrew gcc 10.2)不开启-Wall -Werror是可以编译的</li>
+<li>r的值每次执行都不一样</li>
+<li><a href="https://stackoverflow.com/questions/32513793/c-and-c-functions-without-a-return-statement">一些解释</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>c/c++</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>docker部署mongo</title>
+    <url>/2022/11/10/docker%E9%83%A8%E7%BD%B2mongo-docker-bu-shu-mongo/</url>
+    <content><![CDATA[<p>基本的docker命令就不说了，按照下面的-v参数创建目录即可，需要注意的是mongodb.conf需要填写mongo的配置，下面是一个例子</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemLog:</span><br><span class="line">	destination: file</span><br><span class="line">	path: /var/log/mongodb/mongodb.log</span><br><span class="line">storage:</span><br><span class="line">	dbPath: /data/db</span><br><span class="line">net:</span><br><span class="line">	bindIP: 0.0.0.0,::</span><br><span class="line">	port: 27017</span><br><span class="line"># 这里一开始不要填写，设置完管理员用户再填上</span><br><span class="line">security: </span><br><span class="line">	authorization: enabled</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># docker pull mongo:latest</span><br><span class="line"># ocker run --name mongodb -d -p 27017:27017 -v /root/.docker/mongodb/db:/data/db -v /root/.docker/mongodb/logs:/var/log/mongodb -v /root/.docker/mongodb/conf/mongodb.conf:/etc/mongo.conf mongo:latest</span><br></pre></td></tr></table></figure>
+<p><a href="https://www.mongodb.com/compatibility/docker">一个新的创建默认管理员方案</a>, 个人部署偷懒使用</p>
+]]></content>
+      <categories>
+        <category>数据库相关</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>fedora提示“You are in emergency mode”并且无法操作的时候解决方案</title>
+    <url>/2022/11/09/fedora%E6%8F%90%E7%A4%BA%E2%80%9CYou%20are%20in%20emergency%20mode%E2%80%9D%E5%B9%B6%E4%B8%94%E6%97%A0%E6%B3%95%E6%93%8D%E4%BD%9C%E7%9A%84%E6%97%B6%E5%80%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88-fedorayouareinemergencymode/</url>
+    <content><![CDATA[<ol>
+<li>原因：因为自己把一块挂载到fedora硬盘取下做其他用途，导致fedora开始无法进入系统并提升You are in emergency mode， 并且无法进行任何操作，如歌可以操作按照正常流程操作即可</li>
+<li>解决：<ol>
+<li>在fedora启动的时候，在看到GRUB菜单时，快速按下键盘的‘E’建</li>
+<li>将箭头移动到rhgb quiet所在的行 </li>
+<li>将rhgb quiet修改为rd.break enforcing=0 （enforcing=0避免执行完整的系统SELinux）</li>
+<li>按下Ctrl+x启动系统 </li>
+<li>现在fedora处于紧急模式，使用读写权限挂载硬盘<br><code># mount -o remount, rw /sysroot</code></li>
+<li>执行chroot访问系统<code># chroot /sysroot</code></li>
+<li>使用vi 编辑/etc/fstab <code># vi /etc/fstab</code></li>
+<li>删除挂载的硬盘，也可以使用umount <code># umount -v &quot;挂载目录&quot;</code></li>
+<li>一直执行exit知道系统执行后续流程并启动 </li>
+</ol>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Linux系统相关</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>gperftools的使用</title>
+    <url>/2020/09/15/gperftools%E7%9A%84%E4%BD%BF%E7%94%A8-gperftools%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<h4 id="github地址"><a href="#github地址" class="headerlink" title="github地址"></a>github地址</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://github.com/gperftools/gperftools</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/gperftools/gperftools.git</span><br><span class="line">cd gperftools</span><br><span class="line">./autogen.sh</span><br><span class="line">make</span><br></pre></td></tr></table></figure>
+
+<h4 id="HEAP-PROFILER"><a href="#HEAP-PROFILER" class="headerlink" title="HEAP PROFILER"></a>HEAP PROFILER</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1) Link your executable with -ltcmalloc</span><br><span class="line">2) Run your executable with the HEAPPROFILE environment var set:</span><br><span class="line">     $ export HEAPPROFILE=/tmp/heapprof &lt;path/to/binary&gt; [binary args]</span><br><span class="line">3) Run pprof to analyze the heap usage</span><br><span class="line">     $ pprof &lt;path/to/binary&gt; /tmp/heapprof.0045.heap  # run &#x27;ls&#x27; to see options</span><br><span class="line">     $ pprof --gv &lt;path/to/binary&gt; /tmp/heapprof.0045.heap</span><br></pre></td></tr></table></figure>
+
+<h4 id="CPU-PROFILER"><a href="#CPU-PROFILER" class="headerlink" title="CPU PROFILER"></a>CPU PROFILER</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1) Link your executable with -lprofiler</span><br><span class="line">2) Run your executable with the CPUPROFILE environment var set:</span><br><span class="line">     $ export CPUPROFILE=/tmp/prof.out &lt;path/to/binary&gt; [binary args]</span><br><span class="line">3) Run pprof to analyze the CPU usage</span><br><span class="line">     $ pprof &lt;path/to/binary&gt; /tmp/prof.out      # -pg-like text output</span><br><span class="line">     $ pprof --gv &lt;path/to/binary&gt; /tmp/prof.out # really cool graphical output</span><br></pre></td></tr></table></figure>
+
+<h4 id="生成PDF文件"><a href="#生成PDF文件" class="headerlink" title="生成PDF文件"></a>生成PDF文件</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pprof --pdf ./executable pprof.out &gt; pprof.pdf</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>gperftools的使用</title>
+    <url>/2020/09/15/gperftools%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<h4 id="github地址"><a href="#github地址" class="headerlink" title="github地址"></a>github地址</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://github.com/gperftools/gperftools</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/gperftools/gperftools.git</span><br><span class="line">cd gperftools</span><br><span class="line">./autogen.sh</span><br><span class="line">make</span><br></pre></td></tr></table></figure>
+
+<h4 id="HEAP-PROFILER"><a href="#HEAP-PROFILER" class="headerlink" title="HEAP PROFILER"></a>HEAP PROFILER</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1) Link your executable with -ltcmalloc</span><br><span class="line">2) Run your executable with the HEAPPROFILE environment var set:</span><br><span class="line">     $ export HEAPPROFILE=/tmp/heapprof &lt;path/to/binary&gt; [binary args]</span><br><span class="line">3) Run pprof to analyze the heap usage</span><br><span class="line">     $ pprof &lt;path/to/binary&gt; /tmp/heapprof.0045.heap  # run &#x27;ls&#x27; to see options</span><br><span class="line">     $ pprof --gv &lt;path/to/binary&gt; /tmp/heapprof.0045.heap</span><br></pre></td></tr></table></figure>
+
+<h4 id="CPU-PROFILER"><a href="#CPU-PROFILER" class="headerlink" title="CPU PROFILER"></a>CPU PROFILER</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1) Link your executable with -lprofiler</span><br><span class="line">2) Run your executable with the CPUPROFILE environment var set:</span><br><span class="line">     $ export CPUPROFILE=/tmp/prof.out &lt;path/to/binary&gt; [binary args]</span><br><span class="line">3) Run pprof to analyze the CPU usage</span><br><span class="line">     $ pprof &lt;path/to/binary&gt; /tmp/prof.out      # -pg-like text output</span><br><span class="line">     $ pprof --gv &lt;path/to/binary&gt; /tmp/prof.out # really cool graphical output</span><br></pre></td></tr></table></figure>
+
+<h4 id="生成PDF文件"><a href="#生成PDF文件" class="headerlink" title="生成PDF文件"></a>生成PDF文件</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pprof --pdf ./executable pprof.out &gt; pprof.pdf</span><br></pre></td></tr></table></figure>]]></content>
+  </entry>
+  <entry>
+    <title>grep记录</title>
+    <url>/2020/12/16/grep%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<h4 id="grep-文件夹递归查找"><a href="#grep-文件夹递归查找" class="headerlink" title="grep 文件夹递归查找"></a>grep 文件夹递归查找</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">grep -rEn &quot;chrome.html&quot; .</span><br></pre></td></tr></table></figure>]]></content>
+  </entry>
+  <entry>
+    <title>macos intel调试rust的问题</title>
+    <url>/2024/01/20/macos%20intel%E8%B0%83%E8%AF%95rust%E7%9A%84%E9%97%AE%E9%A2%98-macosinteldebugrust/</url>
+    <content><![CDATA[<p><a href="https://stackoverflow.com/questions/77218022/why-is-my-debugger-in-vscode-not-working-with-rust-after-mac-update-to-sonoma-14">地址</a><br>方法：删除</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">~/.vscode/extensions/vadimcn.vscode-lldb-1.10.0/lldb/bin/debugserver</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>grep记录</title>
+    <url>/2020/12/16/grep%E8%AE%B0%E5%BD%95-grep%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<h4 id="grep-文件夹递归查找"><a href="#grep-文件夹递归查找" class="headerlink" title="grep 文件夹递归查找"></a>grep 文件夹递归查找</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">grep -rEn &quot;chrome.html&quot; .</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>macos系统在glfw下使用vkCreateMetalSurfaceEXT创建vksurface</title>
+    <url>/2024/12/29/macos%E7%B3%BB%E7%BB%9F%E5%9C%A8glfw%E4%B8%8B%E4%BD%BF%E7%94%A8vkCreateMetalSurfaceEXT%E5%88%9B%E5%BB%BAvksurface-macos%E7%B3%BB%E7%BB%9F%E4%B8%8Bglfw%E4%BD%BF%E7%94%A8vkcreatemetalsurfaceext%E5%88%9B%E5%BB%BAvksurface/</url>
+    <content><![CDATA[<h3 id="踩了一天的坑，记录下，网上相关资料也很少，主要问题在macos上windows的资料网上全"><a href="#踩了一天的坑，记录下，网上相关资料也很少，主要问题在macos上windows的资料网上全" class="headerlink" title="踩了一天的坑，记录下，网上相关资料也很少，主要问题在macos上windows的资料网上全"></a>踩了一天的坑，记录下，网上相关资料也很少，主要问题在macos上windows的资料网上全</h3><h4 id="首先包含必要的头文件"><a href="#首先包含必要的头文件" class="headerlink" title="首先包含必要的头文件"></a>首先包含必要的头文件</h4> <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">if</span> defined(__APPLE__)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> GLFW_EXPOSE_NATIVE_COCOA</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;QuartzCore/CAMetalLayer.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;objc/message.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;objc/objc.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;objc/runtime.h&gt;</span>  </span></span><br><span class="line"><span class="meta">#<span class="keyword">endif</span></span></span><br></pre></td></tr></table></figure>
+<h4 id="接着需要获取CAMetalLayer，这里就很关键了"><a href="#接着需要获取CAMetalLayer，这里就很关键了" class="headerlink" title="接着需要获取CAMetalLayer，这里就很关键了"></a>接着需要获取CAMetalLayer，这里就很关键了</h4>  <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 获取 NSWindow 对象</span></span><br><span class="line">id cocoaWindow = <span class="built_in">glfwGetCocoaWindow</span>(window);</span><br><span class="line"><span class="keyword">if</span> (!cocoaWindow) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">nullptr</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 获取 contentView</span></span><br><span class="line">id contentView = <span class="built_in">reinterpret_cast</span>&lt;<span class="built_in">id</span> (*)(id, SEL)&gt;(objc_msgSend)(cocoaWindow, <span class="built_in">sel_getUid</span>(<span class="string">&quot;contentView&quot;</span>));</span><br><span class="line"><span class="keyword">if</span> (!contentView) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">nullptr</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 获取 layer</span></span><br><span class="line">id layer = <span class="built_in">reinterpret_cast</span>&lt;<span class="built_in">id</span> (*)(id, SEL)&gt;(objc_msgSend)(contentView, <span class="built_in">sel_registerName</span>(<span class="string">&quot;layer&quot;</span>));</span><br><span class="line"><span class="keyword">using</span> ObjcMsgSendFunc = <span class="built_in">BOOL</span> (*)(id, SEL, Class);</span><br><span class="line"><span class="keyword">auto</span> objcMsgSendFunc = <span class="built_in">reinterpret_cast</span>&lt;ObjcMsgSendFunc&gt;(objc_msgSend);</span><br><span class="line"><span class="type">bool</span> isCAMetalLayer = <span class="built_in">objcMsgSendFunc</span>(layer, <span class="built_in">sel_registerName</span>(<span class="string">&quot;isKindOfClass:&quot;</span>),</span><br><span class="line">                                    <span class="built_in">static_cast</span>&lt;Class&gt;(<span class="built_in">objc_getClass</span>(<span class="string">&quot;CAMetalLayer&quot;</span>)));</span><br><span class="line"><span class="keyword">if</span> (!isCAMetalLayer) &#123;</span><br><span class="line">    <span class="comment">// 创建 CAMetalLayer 这里创建CAMetalLayer是必须的，</span></span><br><span class="line">    <span class="comment">//因为glfw并没有默认创建CAMetalLayer</span></span><br><span class="line">    <span class="comment">//相关代码可以在glfw的代码中找到代码位置在_glfwCreateWindowSurfaceCocoa</span></span><br><span class="line">    <span class="comment">//https://github.com/glfw/glfw/blob/master/src/cocoa_window.m</span></span><br><span class="line">    <span class="comment">//按照glfw的流程完成的CAMetalLayer的获取</span></span><br><span class="line">    <span class="comment">//幸好现在又ai辅助，将代码转为为c++版本，要不然还得学习苹果系统的开发</span></span><br><span class="line">    id metalLayer = <span class="built_in">reinterpret_cast</span>&lt;<span class="built_in">id</span> (*)(Class, SEL)&gt;(objc_msgSend)(<span class="built_in">objc_getClass</span>(<span class="string">&quot;CAMetalLayer&quot;</span>),</span><br><span class="line">                                                                    <span class="built_in">sel_getUid</span>(<span class="string">&quot;alloc&quot;</span>));</span><br><span class="line">    metalLayer = <span class="built_in">reinterpret_cast</span>&lt;<span class="built_in">id</span> (*)(id, SEL)&gt;(objc_msgSend)(metalLayer, <span class="built_in">sel_getUid</span>(<span class="string">&quot;init&quot;</span>));</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 设置 contentView 的 layer</span></span><br><span class="line">    <span class="built_in">reinterpret_cast</span>&lt;<span class="built_in">void</span> (*)(id, SEL, id)&gt;(objc_msgSend)(contentView, <span class="built_in">sel_getUid</span>(<span class="string">&quot;setLayer:&quot;</span>), metalLayer);</span><br><span class="line">    <span class="built_in">reinterpret_cast</span>&lt;<span class="built_in">void</span> (*)(id, SEL, BOOL)&gt;(objc_msgSend)(contentView, <span class="built_in">sel_getUid</span>(<span class="string">&quot;setWantsLayer:&quot;</span>), YES);</span><br><span class="line"></span><br><span class="line">    layer = metalLayer;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 检测并设置 contentsScale</span></span><br><span class="line"><span class="comment">//这里主要是设Scale，直接默认开启就好</span></span><br><span class="line"><span class="comment">// if (glfwGetWindowAttrib(window, GLFW_SCALE_TO_MONITOR)) &#123;</span></span><br><span class="line"><span class="built_in">reinterpret_cast</span>&lt;<span class="built_in">void</span> (*)(id, SEL, CGFloat)&gt;(objc_msgSend)(</span><br><span class="line">    layer, <span class="built_in">sel_getUid</span>(<span class="string">&quot;setContentsScale:&quot;</span>),</span><br><span class="line">    <span class="built_in">reinterpret_cast</span>&lt;<span class="built_in">CGFloat</span> (*)(id, SEL)&gt;(objc_msgSend)(cocoaWindow, <span class="built_in">sel_getUid</span>(<span class="string">&quot;backingScaleFactor&quot;</span>)));</span><br><span class="line"><span class="comment">//&#125;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">return</span> layer;</span><br></pre></td></tr></table></figure>
+
+<h4 id="最后一步，创建vkSurface"><a href="#最后一步，创建vkSurface" class="headerlink" title="最后一步，创建vkSurface"></a>最后一步，创建vkSurface</h4> <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"> <span class="comment">//wsi.get_surfac就是刚才返回的layer，只不过被转换成了void*</span></span><br><span class="line"><span class="type">const</span> VkMetalSurfaceCreateInfoEXT macos_ci = &#123;</span><br><span class="line">    .sType = VK_STRUCTURE_TYPE_METAL_SURFACE_CREATE_INFO_EXT,</span><br><span class="line">    .pNext = <span class="literal">nullptr</span>,</span><br><span class="line">    .pLayer = <span class="built_in">static_cast</span>&lt;<span class="type">const</span> CAMetalLayer*&gt;(wsi.get_surface),</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">auto</span> result = <span class="built_in">vkCreateMetalSurfaceEXT</span>(instance, &amp;macos_ci, <span class="literal">nullptr</span>, &amp;unsafe_surface);</span><br><span class="line"><span class="keyword">if</span> (result != VK_SUCCESS) &#123;</span><br><span class="line">    <span class="keyword">throw</span> std::<span class="built_in">runtime_error</span>(<span class="string">&quot;Failed to create Metal surface&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="相关代码"><a href="#相关代码" class="headerlink" title="相关代码"></a>相关代码</h4><p> <a href="https://github.com/lamouse/graphics">https://github.com/lamouse/graphics</a></p>
+<h4 id="想法来源"><a href="#想法来源" class="headerlink" title="想法来源"></a>想法来源</h4><p><a href="https://git.suyu.dev/suyu/suyu">suzu</a><br><a href="https://github.com/glfw/glfw">glfw</a></p>
+]]></content>
+      <categories>
+        <category>mac</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>socket编程中的问题</title>
+    <url>/2022/08/20/socket%E7%BC%96%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%97%AE%E9%A2%98-socket%E7%BC%96%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h2 id="accept"><a href="#accept" class="headerlink" title="accept"></a>accept</h2><p>accept的第三个参数在《unix网络编程》中代码没有进行初始化，在mac的man accept中明确要求初始化，如果未初始化便会出现accept第二个参数sockaddr未正确设置的问题</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">The address_len is a value-result parameter; it should initially contain</span><br><span class="line">    the amount of space pointed to by address; on return it will contain the actual</span><br><span class="line">    length (in bytes) of the address returned.</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<p>##socket address<br>自己储存socket address的时候使用sockaddr_storage这个结构体并加上数据的长度，如果使用struct sockaddr这个结构体存储的话，当协议地址长度大于sockaddr的时候，多余的部分将会被忽略，例如ipv6的地址结构s struct sockaddr_in6的长度大于sockaddr的长度，导致使用类似bind， connect时候出现异常</p>
+]]></content>
+      <categories>
+        <category>linux编程相关</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>openJDK 在fedora的构建</title>
+    <url>/2020/03/01/openJDK-%E5%9C%A8fedora%E7%9A%84%E6%9E%84%E5%BB%BA/</url>
+    <content><![CDATA[<h5 id="通过hg下载源代码"><a href="#通过hg下载源代码" class="headerlink" title="通过hg下载源代码"></a>通过hg下载源代码</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hg clone http://hg.openjdk.java.net/jdk/jdk11</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<p>如果没有openjdk10或者11到openjdk官网下载一个即可<br>如果因为出现编译失败添加参数–disable-warnings-as-errors</p>
+<h5 id="执行如下脚本"><a href="#执行如下脚本" class="headerlink" title="执行如下脚本"></a>执行如下脚本</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">./configure --with-boot-jdk=&quot;openjdk10或者11的安装目录&quot; --disable-warnings-as-errors</span><br></pre></td></tr></table></figure>
+]]></content>
+  </entry>
+  <entry>
+    <title>openJDK 在fedora的构建</title>
+    <url>/2020/03/01/openJDK%20%E5%9C%A8fedora%E7%9A%84%E6%9E%84%E5%BB%BA-openjdk%E5%9C%A8fedora%E7%9A%84%E6%9E%84%E5%BB%BA/</url>
+    <content><![CDATA[<h5 id="通过hg下载源代码"><a href="#通过hg下载源代码" class="headerlink" title="通过hg下载源代码"></a>通过hg下载源代码</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hg clone http://hg.openjdk.java.net/jdk/jdk11</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<p>如果没有openjdk10或者11到openjdk官网下载一个即可<br>如果因为出现编译失败添加参数–disable-warnings-as-errors</p>
+<h5 id="执行如下脚本"><a href="#执行如下脚本" class="headerlink" title="执行如下脚本"></a>执行如下脚本</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">./configure --with-boot-jdk=&quot;openjdk10或者11的安装目录&quot; --disable-warnings-as-errors</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>socket编程中的问题</title>
+    <url>/2022/08/20/socket%E7%BC%96%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h2 id="accept"><a href="#accept" class="headerlink" title="accept"></a>accept</h2><p>accept的第三个参数在《unix网络编程》中代码没有进行初始化，在mac的man accept中明确要求初始化，如果未初始化便会出现accept第二个参数sockaddr未正确设置的问题</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">The address_len is a value-result parameter; it should initially contain</span><br><span class="line">    the amount of space pointed to by address; on return it will contain the actual</span><br><span class="line">    length (in bytes) of the address returned.</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<p>##socket address<br>自己储存socket address的时候使用sockaddr_storage这个结构体并加上数据的长度，如果使用struct sockaddr这个结构体存储的话，当协议地址长度大于sockaddr的时候，多余的部分将会被忽略，例如ipv6的地址结构s struct sockaddr_in6的长度大于sockaddr的长度，导致使用类似bind， connect时候出现异常</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>spring的一些问题</title>
+    <url>/2020/11/09/spring%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98-spring%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p>如果你的Spring boot项目不小心被引入了Spring web，但是没有人需要的时候，这时你需要做一些修改</p>
+<span id="more"></span>
+
+<h2 id="方案一：在application-yml-Spring配置加入如下信息"><a href="#方案一：在application-yml-Spring配置加入如下信息" class="headerlink" title="方案一：在application.yml Spring配置加入如下信息"></a>方案一：在application.yml Spring配置加入如下信息</h2><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">spring:</span></span><br><span class="line">    <span class="attr">main:</span></span><br><span class="line">      <span class="attr">web-application-type:</span> <span class="string">none</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="方案二：修改你的main方法-使用如下写法"><a href="#方案二：修改你的main方法-使用如下写法" class="headerlink" title="方案二：修改你的main方法,使用如下写法"></a>方案二：修改你的main方法,使用如下写法</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">SpringApplication</span> <span class="variable">springApplication</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">SpringApplication</span>(YourMain.class);</span><br><span class="line">   springApplication.setWebApplicationType(WebApplicationType.NONE);</span><br><span class="line">   springApplication.run(args);</span><br></pre></td></tr></table></figure>
+<h2 id="方案三：在maven排除web依赖，但这个方法可能会导致问题"><a href="#方案三：在maven排除web依赖，但这个方法可能会导致问题" class="headerlink" title="方案三：在maven排除web依赖，但这个方法可能会导致问题"></a>方案三：在maven排除web依赖，但这个方法可能会导致问题</h2><h1 id="记录一些遇到该问题坑的框架"><a href="#记录一些遇到该问题坑的框架" class="headerlink" title="记录一些遇到该问题坑的框架"></a>记录一些遇到该问题坑的框架</h1><ol>
+<li><a href="https://github.com/seata/seata">一个分布式事务框架 seata</a>,PS:分布式事务这个东西个人很不喜欢，还是在设计的时候避免这个玩意儿吧，太坑，要及时更新代码，别希望靠这玩意儿解决技术债。</li>
+<li>待补充</li>
+</ol>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>spring的一些问题</title>
+    <url>/2020/11/09/spring%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p>如果你的Spring boot项目不小心被引入了Spring web，但是没有人需要的时候，这时你需要做一些修改</p>
+<span id="more"></span>
+
+<h2 id="方案一：在application-yml-Spring配置加入如下信息"><a href="#方案一：在application-yml-Spring配置加入如下信息" class="headerlink" title="方案一：在application.yml Spring配置加入如下信息"></a>方案一：在application.yml Spring配置加入如下信息</h2><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">spring:</span></span><br><span class="line">    <span class="attr">main:</span></span><br><span class="line">      <span class="attr">web-application-type:</span> <span class="string">none</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="方案二：修改你的main方法-使用如下写法"><a href="#方案二：修改你的main方法-使用如下写法" class="headerlink" title="方案二：修改你的main方法,使用如下写法"></a>方案二：修改你的main方法,使用如下写法</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">SpringApplication</span> <span class="variable">springApplication</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">SpringApplication</span>(YourMain.class);</span><br><span class="line">   springApplication.setWebApplicationType(WebApplicationType.NONE);</span><br><span class="line">   springApplication.run(args);</span><br></pre></td></tr></table></figure>
+<h2 id="方案三：在maven排除web依赖，但这个方法可能会导致问题"><a href="#方案三：在maven排除web依赖，但这个方法可能会导致问题" class="headerlink" title="方案三：在maven排除web依赖，但这个方法可能会导致问题"></a>方案三：在maven排除web依赖，但这个方法可能会导致问题</h2><h1 id="记录一些遇到该问题坑的框架"><a href="#记录一些遇到该问题坑的框架" class="headerlink" title="记录一些遇到该问题坑的框架"></a>记录一些遇到该问题坑的框架</h1><ol>
+<li><a href="https://github.com/seata/seata">一个分布式事务框架 seata</a>,PS:分布式事务这个东西个人很不喜欢，还是在设计的时候避免这个玩意儿吧，太坑，要及时更新代码，别希望靠这玩意儿解决技术债。</li>
+<li>待补充</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>vcpkg的简单用法</title>
+    <url>/2024/12/16/vcpkg%E7%9A%84%E7%AE%80%E5%8D%95%E7%94%A8%E6%B3%95-vcpkg-de-jian-dan-yong-fa/</url>
+    <content><![CDATA[<h4 id="获得基线（baseline）输入该命令即可"><a href="#获得基线（baseline）输入该命令即可" class="headerlink" title="获得基线（baseline）输入该命令即可"></a>获得基线（baseline）输入该命令即可</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vcpkg x-update-baseline</span><br></pre></td></tr></table></figure>
+<h4 id="在cmake中的使用"><a href="#在cmake中的使用" class="headerlink" title="在cmake中的使用"></a>在cmake中的使用</h4> <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"> find_package(glfw3 CONFIG REQUIRED)</span><br><span class="line"> #如果在vcpkg.json配置的glfw3依赖，cmake会自动下载构建该项目构建目录在build/vcpkg_installed</span><br><span class="line"> 可以在cmakelist.txt加入以下配置</span><br><span class="line"> if(NOT DEFINED CMAKE_TOOLCHAIN_FILE)</span><br><span class="line">        set(CMAKE_TOOLCHAIN_FILE &quot;$ENV&#123;VCPKG_ROOT&#125;/scripts/buildsystems/vcpkg.cmake&quot;)</span><br><span class="line">endif()</span><br><span class="line">$ENV&#123;VCPKG_ROOT&#125; </span><br><span class="line">ENV要代表读取环境变量，VCPKG_ROOT是个人设置的环境变量，可以在vscode中设置也可以在系统或者用户环境变量中设置</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>vs code c/c++代码自动补全括号</title>
+    <url>/2023/03/11/vs%20code%20cc++%E4%BB%A3%E7%A0%81%E8%87%AA%E5%8A%A8%E8%A1%A5%E5%85%A8%E6%8B%AC%E5%8F%B7-vscodecc-dai-ma-zi-dong-bu-quan-kuo-hao/</url>
+    <content><![CDATA[<p>打开设置搜索C_Cpp:Autocomplete Add parentheses 勾选即可</p>
+]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>vscode clangd 提示配置</title>
+    <url>/2023/04/04/vscode%20clangd%20%E6%8F%90%E7%A4%BA%E9%85%8D%E7%BD%AE-vscodeclangd%E6%8F%90%E7%A4%BA%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<p>config.yaml<br>该配置表示只打开c++自动推导的类型例如auto声明，关闭参数名称</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">InlayHints:</span><br><span class="line">  Enabled: Yes</span><br><span class="line">  ParameterNames: No</span><br><span class="line">  DeducedTypes: Yes</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>vs code 一些配置</title>
+    <url>/2023/10/07/vs%20code%20%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE-vscode-yi-xie-pei-zhi/</url>
+    <content><![CDATA[<ol>
+<li>插件输入@builtin 可以禁用列表中一些不必要的启动项</li>
+<li>通过设置不同的配置文件（profile）为不同的编程语言指定对应的插件，配置项，可以加快vs code的启动速度以及减少内存使用</li>
+</ol>
+]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>portainer管理docker</title>
+    <url>/2022/11/09/portainer%E7%AE%A1%E7%90%86docker-portainer-manage-docker/</url>
+    <content><![CDATA[<p>1.<a href="https://docs.portainer.io/start/install/server/docker/linux">官方文档</a></p>
+<ol>
+<li>需要注意的是SELinux的启动命令需要加上–privileged</li>
+<li>将git地址添加到命令参数 –add-host raw.githubusercontent.com:185.199.111.133 –add-host raw.githubusercontent.com:185.199.108.133 –add-host raw.githubusercontent.com:185.199.110.133</li>
+</ol>
+]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>windows vscode 打开git项目的一个坑</title>
+    <url>/2023/03/21/windows%20vscode%20%E6%89%93%E5%BC%80git%E9%A1%B9%E7%9B%AE%E7%9A%84%E4%B8%80%E4%B8%AA%E5%9D%91-windowsvscodegitproject/</url>
+    <content><![CDATA[<p>vscode无法使用msys2安装的git，必须使用<a href="https://git-scm.com/download/win">https://git-scm.com/download/win</a> 安装的git</p>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>win11 去掉小组件</title>
+    <url>/2024/01/23/win11%20%E5%8E%BB%E6%8E%89%E5%B0%8F%E7%BB%84%E4%BB%B6-win11-qu-diao-xiao-zu-jian/</url>
+    <content><![CDATA[<p>winget uninstall MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy</p>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>windows终端推荐</title>
+    <url>/2022/10/29/windows%E7%BB%88%E7%AB%AF%E6%8E%A8%E8%8D%90-windowsterminalrecommend/</url>
+    <content><![CDATA[<p>最近找到的两个个人免费比较好用的Windows终端</p>
+<ol>
+<li><a href="https://github.com/kingToolbox/WindTerm">WindTerm</a></li>
+<li><a href="https://mobaxterm.mobatek.net/">MobaXterm</a><br>xshell暂时不推荐主要因为xshll在win11使用中不支持安装字体的切换，导致colorls无法使用</li>
+</ol>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2024/12/29/windows%E7%BB%88%E7%AB%AF%E6%8E%A8%E8%8D%90/</url>
+    <content><![CDATA[<p>最近找到的两个个人免费比较好用的Windows终端</p>
+<ol>
+<li><a href="https://github.com/kingToolbox/WindTerm">WindTerm</a></li>
+<li><a href="https://mobaxterm.mobatek.net/">MobaXterm</a><br>xshell暂时不推荐主要因为xshll在win11使用中不支持安装字体的切换，导致colorls无法使用</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>windows蓝屏分析</title>
+    <url>/2021/03/24/windows%E8%93%9D%E5%B1%8F%E5%88%86%E6%9E%90-windows%E8%93%9D%E5%B1%8F%E5%88%86%E6%9E%90/</url>
+    <content><![CDATA[<h2 id="windows蓝屏分析流程"><a href="#windows蓝屏分析流程" class="headerlink" title="windows蓝屏分析流程"></a>windows蓝屏分析流程</h2><ol>
+<li><a href="https://developer.microsoft.com/zh-cn/windows/downloads/windows-10-sdk/">下载</a>win10sdk</li>
+<li>使用下载的安装包仅安装WinDbg </li>
+<li>使用administrator权限启动WinDbg <span id="more"></span></li>
+<li>ctrl+s设置符号位置</li>
+<li>ctrl+d打开蓝屏dmp文件，文件在C:/Windows/Minidump下</li>
+<li>等待加载出现 !analyze -v,单机</li>
+<li>主要查看最下面的内容看看发生模块</li>
+<li>检查STACK_TEXT部分，如果出现例如Netwtw10+0x57486类似’+’连接的部分，搜索Netwtw10(这里是英特尔网卡驱动)表明这个驱动有问题，需要更新驱动，或者回退旧版本。如果是其他类型就得根据实际情况分析了.</li>
+</ol>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>windows蓝屏分析</title>
+    <url>/2021/03/24/windows%E8%93%9D%E5%B1%8F%E5%88%86%E6%9E%90/</url>
+    <content><![CDATA[<h2 id="windows蓝屏分析流程"><a href="#windows蓝屏分析流程" class="headerlink" title="windows蓝屏分析流程"></a>windows蓝屏分析流程</h2><ol>
+<li><a href="https://developer.microsoft.com/zh-cn/windows/downloads/windows-10-sdk/">下载</a>win10sdk</li>
+<li>使用下载的安装包仅安装WinDbg </li>
+<li>使用administrator权限启动WinDbg <span id="more"></span></li>
+<li>ctrl+s设置符号位置</li>
+<li>ctrl+d打开蓝屏dmp文件，文件在C:/Windows/Minidump下</li>
+<li>等待加载出现 !analyze -v,单机</li>
+<li>主要查看最下面的内容看看发生模块</li>
+<li>检查STACK_TEXT部分，如果出现例如Netwtw10+0x57486类似’+’连接的部分，搜索Netwtw10(这里是英特尔网卡驱动)表明这个驱动有问题，需要更新驱动，或者回退旧版本。如果是其他类型就得根据实际情况分析了.  </li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>不会做产品的公司</title>
+    <url>/2024/01/31/%E4%B8%8D%E4%BC%9A%E5%81%9A%E4%BA%A7%E5%93%81%E7%9A%84%E5%85%AC%E5%8F%B8-%E4%B8%8D%E8%83%BD%E7%94%A8%E8%B4%A6%E5%8F%B7%E5%8F%AA%E8%83%BD%E7%94%A8%E6%89%8B%E6%9C%BA%E5%8F%B7%E7%99%BB%E5%BD%95%E7%9A%84%E7%BD%91%E7%AB%99app%E5%85%A8%E9%83%A8%E6%98%AF%E5%9E%83%E5%9C%BE%E9%BB%98%E8%AE%A4%E6%89%AB%E7%A0%81%E7%99%BB%E5%BD%95%E7%9A%84%E4%BB%BB%E4%BD%95%E7%BD%91%E9%A1%B5%E9%83%BD%E6%98%AF%E5%9E%83%E5%9C%BE/</url>
+    <content><![CDATA[<ol>
+<li>知乎，当初注销时需要安全验证，嗯我自注册后没改过密码，填3次用过的密码。现在不知道啥情况了。</li>
+<li>板栗看板，这货软广多，使用起来很SB网页版登录不能用账号也用自己的app扫描也算了，默认用微信扫码，然后输入手机号在微信验证，客服还是微信好友，咋了要货卖帝王家吗？注销只能在app，创建账号自己创建的默认看板还得手动删除，还是两次，删除按钮概率失效，简直垃圾。</li>
+<li>腾讯新版QQ不知道改版没，账号登录有用户名，密码输入，然而并没有卵用，还得扫码，而且是每次开机都得扫码。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>吐槽</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>一些杂记</title>
+    <url>/2023/11/21/%E4%B8%80%E4%BA%9B%E6%9D%82%E8%AE%B0-yi-xie-za-ji/</url>
+    <content><![CDATA[<ol>
+<li>记录一<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 将事情分解成几个要素，把握问题的结构。</span><br><span class="line">2. 按照工作的顺序和流程进行分析。</span><br><span class="line">3. 按照质与量，国内与国外等标准对市场进行分析。</span><br></pre></td></tr></table></figure></li>
+<li>记录二<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">将问题结构化就是将各种各样的元素组合到一起，从整体上把握问题，造成问题的原因不是单一的，需要使用逻辑树，从广度和深度两个方面对造成问题的原因可视化并且进行分析，并找到最重要的原因，逻辑树需要保证不重复不遗漏。</span><br></pre></td></tr></table></figure></li>
+<li>记录三<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 再解决问题的时候，尽早建立假设，也就是“暂时”的回答非常重要。使用 是/否对假设进行验证。</span><br><span class="line">2. 坚持“刨根问底”站在更广阔的立场上思考。</span><br></pre></td></tr></table></figure></li>
+<li>记录四<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">书籍，包子以及网络上的情报和数据，都不能称为“事实”。这些二手情报，里面有第三者的意见和观点。一定要亲自调查情报的来源。调查的时候注意调查的质量。</span><br></pre></td></tr></table></figure></li>
+<li>记录五<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 寻找原因的提问，为什么做不到？发生了什么事， 什么停止了？</span><br><span class="line">2. 荀子解决办法的提问，应该怎么做才能顺利进行？现在应该做什么才好？</span><br><span class="line">3. 改变视角的提问，这个问题什么时候开始的？如果你是C部下上司像怎么做？</span><br><span class="line">4. 你觉得五年后的你，会给今天的你提供什么样的建议。</span><br><span class="line">5. 与事实相关的提问，现在发生了什么？，你平时都会做些什么？</span><br></pre></td></tr></table></figure></li>
+<li>记录六<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 原原本本的接收情报，不加入自己的个人判断，不做多余的思考，只将注意力都集中再眼前的工作上。</span><br><span class="line">2. 收集情报的过程将其区分为“意见”和“事实”，然后找出千真万确的事实。很难分清“意见”和“事实”的时候，可以通过提问来引出隐藏再意见背后的事实。</span><br><span class="line">3. 用金字塔图表来说明问题，最上方放入最想要传递的“信息”，再其下方是支撑信息的“思考”，”根据“以及”方法“等要素（这些称为关键线索）。</span><br><span class="line">4. 说明时注意的重点，尽量在100子以内简短地归纳出想要说明的重点，让别人一目了然，不要将”多余的说明与解释“，放在”想要说明“的内容之中。不要用抽象的表现形式，而应该选择具体的表现方法。</span><br></pre></td></tr></table></figure></li>
+<li>记录七（演讲如何具有说服力）<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 理论没有遗漏。</span><br><span class="line">2. 是否对理论有深入挖掘。</span><br><span class="line">3. 理论是否正确。</span><br><span class="line">4. 理论的深入挖掘可以通过重复”so what？“来加深思考，理论是否正确时通过对自己提问”why，so？“来检查”so what？“中思考的内容是否正确。如果”why so？“能够说得通，那么这个理论是正确的。也就是说，“so what？”和“why so？”之间能够形成一种循环。最后再对整体再确认一遍是否能形成循环”究竟变成什么样子“，确认理论是否产生了飞跃性的变化。</span><br><span class="line">5. 演讲时应该将核心”内容“再30秒内说完，目标包括以下两点：</span><br><span class="line">	1. 一句话</span><br><span class="line">    	2.包括问题点+解决办法+实行办法。</span><br><span class="line">6. 演讲时最重要的内容时共享与共鸣。</span><br><span class="line">7. 不要用我，而是用我们将大家拉拢进来。用希望大家能够齐心协力取得成功来激发全员参与意识。</span><br></pre></td></tr></table></figure></li>
+<li>记录八<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. &quot;从零开始思考”顾名思义就是要跑一已有的思考，尝试全新的思考。</span><br><span class="line">2. 用“空·雨·伞”来思考</span><br><span class="line">    1. 空：现在处于怎样的情况（事实）。</span><br><span class="line">    2. 雨：现在这一现状有什么意义。</span><br><span class="line">    3. 伞：根据这个解锁应该采取什么行动。</span><br></pre></td></tr></table></figure></li>
+<li>记录九<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 搞清楚自己不知道什么。</span><br><span class="line">2. 解决问题最重要的一点就是从一开始就确定什么才是应该有的状态。</span><br><span class="line">3. 所谓“解决问题”，就是找出”真正的问题“，弥补应有状态与现状直接的偏差。</span><br><span class="line">4. 不解决真正的问题，只能像打地鼠一样，忙于应对眼前的问题，根本称不上是解决问题。</span><br><span class="line">5. 根据眼前发生的现象定义问题确认应有的状态，然后搞清楚这个问题是由哪些原因组成的，也就是将问题的结构格式化。</span><br><span class="line">6. 在分解问题的时候：第一点要不重复不遗漏，第二点是尊重事实，第三点是不要关注重要程度低的内容。</span><br><span class="line">7. 通过假设来设定最重要的课题。也就是能够从根本上解决问题的课题。</span><br><span class="line">8. 以最重要的课题作为出发点，根据以此为导出的要素对假设是正确进行yes or no的验证，这就是问题树。</span><br><span class="line">9. 不要过分收集信息。</span><br><span class="line">10. 相同真正低解决问题，不能以现状为基础进行思考，而应该以”应有状态“为基础进行思考。</span><br><span class="line">11. 利用逻辑思考来解决问题，可以是解决问题流程中的现象，要因，以及自己的思考结果一目了然，条理清晰。</span><br><span class="line">12. 通过重复”so what？”和“why so？”可以让逻辑变得更加严谨。</span><br><span class="line">13. 要想真正低解决问题 “谁做什么？怎么做？”尤为重要。</span><br><span class="line">14. 不能只看解决眼前的问题，还要有长长远的打算，而向未来解决问题。</span><br><span class="line">15. 建立合理的假设，打破边框，从零开始思考，可能会发现平时看似毫不相干的信息直接隐藏的联系，从而找出意料之外的答案。</span><br><span class="line">16. 尽量不要让自己产生疲惫的感觉，早睡早起。</span><br><span class="line">17. 坚持以问题为基础进行思考。</span><br><span class="line">18. 一个真正优秀的问题，必须做到简洁有力。</span><br><span class="line">19. 遇到问题时首先判断首先判断是否抓住了本质。</span><br><span class="line">20. 能够解决问题的好问题，就是放下判断的姿态，以学习的姿态提出问题。</span><br></pre></td></tr></table></figure></li>
+<li>记录十（解决问题）<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 不要只对自己有利的事实和信息为根据。</span><br><span class="line">2. 不能引导对方产生错误的认知。</span><br><span class="line">3. 绝对不能有违道德的逻辑偏差</span><br></pre></td></tr></table></figure></li>
+<li>记录十一<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 向对方解释这种想法是从何而来的，更容易得到对方的理解和接受。</span><br><span class="line">2. 在传达内容时，必须按照主题-&gt;结论-&gt;内容-&gt;根据-&gt;行动的顺序来进行说明。</span><br></pre></td></tr></table></figure></li>
+<li>记录十二（进行说明的时候五个不当用语）<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 我认为：在说明自己的意见时，必须客观具体地说明。</span><br><span class="line">2. 不行：在拒绝对方的时候，必须指出那部分存在问题，相应的根据以及应该怎样做。</span><br><span class="line">3. 我知道：应该具体地说明今后应该怎样做。</span><br><span class="line">4. 那你说怎么办：对方提出问题时，这种时候问清楚对方理由而不是那你说怎么办？</span><br><span class="line">5. 没问题：如果对方问“找你商量点事可以吗？”回答没我呢提就容易含糊。</span><br></pre></td></tr></table></figure></li>
+<li>记录十三<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 用只有自己才明白的含糊词语，会导致缺乏逻辑。</span><br><span class="line">2. 不要将人际关系作为工作的重心，面对任何问题都要发挥主观能动性，在任何环境，与任何员工一起能够正常工作，将能够取得怎样的成果作为工作的重心。</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>读书</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>从练习标准打字体会到的</title>
+    <url>/2024/03/16/%E4%BB%8E%E7%BB%83%E4%B9%A0%E6%A0%87%E5%87%86%E6%89%93%E5%AD%97%E4%BD%93%E4%BC%9A%E5%88%B0%E7%9A%84-cong-lian-xi-biao-zhun-da-zi-ti-hui-dao-de/</url>
+    <content><![CDATA[<p>最近在练习标准指法打字， 速度到了60-70无法提升了，乡镇提升下准确率， 连续进行了好几天并没有什么进步，仔细感受了一下打错字的原因。</p>
+<ol>
+<li>过去非标准指法的后遗症占据六分之一左右</li>
+<li>手指不灵活误触占据五分一左右</li>
+<li>最多的是手指不自觉的提前准备第二个字母以上的移动，打字的同一只手的打字姿势非常不舒服，因为手指移动了还会抢打，或者误认为打过了然后跳过，最终结果就是一个字符的提前准备导致后续的单词持续错误。</li>
+</ol>
+<p>学习也是这么一回事要一个过程一个过程的依次学习，重要的是确认前面的过程已经准确完成, 而不是超前准备，否则一旦开始错误，后续的学习会连续不断的失败，导致无效学习</p>
+]]></content>
+      <categories>
+        <category>吐槽</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>使用anaconda的一些设置</title>
+    <url>/2024/12/09/%E4%BD%BF%E7%94%A8anaconda%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AE%BE%E7%BD%AE-%E4%BD%BF%E7%94%A8anaconda%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<ol>
+<li>添加PYTHONUSERBASE 环境变量即可修改anaconda自带的pip安装目录</li>
+<li>在用户根目录添加.condarc文件，修改anaconda的py虚拟环境和pkg安装目录，内容如下<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">channels:</span><br><span class="line">  - defaults</span><br><span class="line">envs_dirs:</span><br><span class="line">  - D:\libs\python\envs</span><br><span class="line">pkgs_dirs:</span><br><span class="line">  - D:\libs\conda-pkgs</span><br></pre></td></tr></table></figure></li>
+<li>网上那种修改site.py方法就不要用了，安装python都得修改一次很麻烦不如一劳永逸</li>
+</ol>
+]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>不推荐书目录</title>
+    <url>/2024/01/01/%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%B9%A6%E7%9B%AE%E5%BD%95-bu-tui-jian-shu-mu-lu/</url>
+    <content><![CDATA[<ol>
+<li>《波峰与波谷》阎步克。不推荐理由：简介性质的书籍，阅读体验接近新儒家，部分论述唯心方面偏多，第五章的论述直接把荀子开除了儒家，王莽改制失败结论推导过于主观。有些民族主义倾向。</li>
+<li>《晚清士人与世相》杨国强。不推荐理由：“文人气息”很浓厚，这个文人是打引号的，不考虑当时的政治情况，单凭奏书推论“尊君，爱国”有点搞笑了。推荐通过《天朝的奔溃》这本书进行对比。这样体会会加深。</li>
+<li>《中国哲学史》冯友兰。不推荐理由：各家大摘抄。</li>
+<li>《中国通史》一共两本，吕思勉，中华书局的那本估计校刊都没有，卖官鬻爵都能打成卖官粥爵，很多地方语句不古不今的，对于现代社会来说没必要。另一部内容只能说是“儒家式”的介绍，对于当下来说，没有时间的话不必要浪费时间去读。更推荐《中国历史通论（增订本）》王家范，这本书给了更大范围的视角看待中国历史，读起来令人感觉耳目一新。虽然作者赞美吕的开先河之功，但是作者本身给人打开的视野却不必专门再去读吕的通史了。用作者的方式去看原始资料更好。</li>
+<li>《中国历代政治得失》钱穆。不推荐理由：太老了，民族主义较明显。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>读书</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>儒林外史摘抄</title>
+    <url>/2023/07/14/%E5%84%92%E6%9E%97%E5%A4%96%E5%8F%B2%E6%91%98%E6%8A%84-ru-lin-wai-shi-zhai-chao/</url>
+    <content><![CDATA[<p>人生南北多歧路，将相神仙，也要凡人做。百代兴亡朝复暮， 春风吹倒前朝树。<br>功名富贵无凭据，费尽心情，总把流光误。浊酒三杯沉醉去，水流花谢知何处。</p>
+]]></content>
+      <categories>
+        <category>读书</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>关于所谓TCP粘包</title>
+    <url>/2021/03/15/%E5%85%B3%E4%BA%8E%E6%89%80%E8%B0%93TCP%E7%B2%98%E5%8C%85-%E5%85%B3%E4%BA%8E%E6%89%80%E8%B0%93tcp%E7%B2%98%E5%8C%85/</url>
+    <content><![CDATA[<ol>
+<li>TCP协议是一种面向连接的、可靠的、基于字节流的传输层通信协议。</li>
+<li>所谓“包”是应用层的事情，不归TCP管。</li>
+<li>不要被所谓的技术文档迷惑，把本来不存在的东西当成宝贝。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>关于所谓TCP粘包</title>
+    <url>/2021/03/15/%E5%85%B3%E4%BA%8E%E6%89%80%E8%B0%93TCP%E7%B2%98%E5%8C%85/</url>
+    <content><![CDATA[<ol>
+<li>TCP协议是一种面向连接的、可靠的、基于字节流的传输层通信协议。</li>
+<li>所谓“包”是应用层的事情，不归TCP管。</li>
+<li>不要被所谓的技术文档迷惑，把本来不存在的东西当成宝贝。</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>官方数据</title>
+    <url>/2024/03/27/%E5%AE%98%E6%96%B9%E6%95%B0%E6%8D%AE-guan-fang-shu-ju/</url>
+    <content><![CDATA[<p>金融数据：<br>中国人民银行<br>国家金融监督管理总局<br>中国证券监督管理委员会</p>
+<p>进出口数据：<br>中华人民共和国海关总署</p>
+<p>农产品数据：<br>中华人民共和国农业农村部</p>
+<p>工业产品数据：<br>中华人民共和国工业和信息化部</p>
+<p>城市人口数据：<br>当地统计年鉴</p>
+<p>土地出让数据：<br>中华人民共和国自然资源部</p>
+<p>房屋存量数据：<br>中华人民共和国住房和城乡建设部</p>
+<p>学术调查：<br>中国学术调查数据资料库</p>
+<p>家庭追踪调查：<br>中国家庭追踪调查</p>
+<p>中国家庭收入调查：<br>CHIPS数据公开公告</p>
+]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2024/12/29/%E6%8E%A8%E8%8D%90%E4%B8%80%E6%AC%BEwindows%E4%B8%8B%E8%BD%BB%E9%87%8Fpdf%E9%98%85%E8%AF%BB%E5%99%A8/</url>
+    <content><![CDATA[<ol>
+<li><a href="https://github.com/sumatrapdfreader/sumatrapdf">sumatrapdf</a></li>
+<li>推荐理由：轻量，无广告，日常看pdf功能足够</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>推荐一款windows下轻量pdf阅读器</title>
+    <url>/2022/10/29/%E6%8E%A8%E8%8D%90%E4%B8%80%E6%AC%BEwindows%E4%B8%8B%E8%BD%BB%E9%87%8Fpdf%E9%98%85%E8%AF%BB%E5%99%A8-windowspdfreader/</url>
+    <content><![CDATA[<ol>
+<li><a href="https://github.com/sumatrapdfreader/sumatrapdf">sumatrapdf</a></li>
+<li>推荐理由：轻量，无广告，日常看pdf功能足够</li>
+</ol>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>李泽厚 思想史论三本 体悟</title>
+    <url>/2024/02/04/%E6%9D%8E%E6%B3%BD%E5%8E%9A%20%E6%80%9D%E6%83%B3%E5%8F%B2%E8%AE%BA%E4%B8%89%E6%9C%AC%20%E4%BD%93%E6%82%9F-li-ze-hou-si-xiang-shi-lun-san-ti-wu/</url>
+    <content><![CDATA[<p>三本书分别是《中国古代思想史论（布面精装》《李泽厚 中国近代思想史论》《李泽厚 中国现代思想史论》</p>
+<ol>
+<li>李泽厚思想史论中提到的社会需要异己的力量，当时的我立马同意了这个说法。但是随着时间的流逝，社会上，网络上的各种声音听了很多，突然醒悟到，中国不需要异己的力量，异己的力量是资本主义思想。中国要走的是社会主义，共产主义。广大人民群众群众的声音就是力量，不需要一个与广大人民群众相异的力量。</li>
+<li>封建传统在国内还有很大的力量，需要彻底消灭封建思想。</li>
+<li>之前有大V针对寻衅滋事罪做过大讨论，具体内容应该很容易查到，这里我想说的去除与保留这个事情不是根本，去除也代表不了进步，保留也不能代表这个法律是好的，关键这个事情是由谁判定，由人民群众判定他就是好的进步的。吃爱国饭的人现在多了起来了，这里哪些是真爱国，哪些故意挑动人民内部的对立，经由人民群众的评判，将假爱国人的挑动判定为寻衅滋事，社会上，网络上那种奇葩的声音会少很多。</li>
+<li>之前还有过一个伤害情感的法条也热闹过一阵，我当时也感觉不舒服，现在也明白了，那些自媒体，自媒体律师讲的都是废话，这个条例由人民群众判，而不是交由个人，那么那些反对的声音将会无力。人民群众也将喜闻乐见。</li>
+<li>中国一定要走民主，不能回到儒家走圣人之治，就像法律中模糊的地方要相信人民群众，而不是期待圣人，圣人之治无法度过危机，历史告诉我们圣人之治最终会让其他危机变为政治倒台。</li>
+<li>互联网上的评论区给人一种感觉，人们对政府的信任在下降。我觉得不应该出台什么法律让人闭嘴，爱国法其实也不需要，需要的是像过去一样，让人民群众参与进来，人民群众参与进来比几百部爱国法的作用都大。</li>
+<li>《商君书》很多媒体人喜欢用来说是中国古代人民受罪的罪魁祸首，我反而不这么感觉，罪魁祸首是儒家。打破世袭贵族的是法家，阶层开始流动也是法家搞出来的，儒家却维护世袭贵族，禁止阶级流动。法家讲究看当下，儒家讲究三代，法家讲究成文法，儒家讲究人治，反对成文法。皇权的加强还是儒家。</li>
+<li>接上条，有些史学大家把董仲舒的理论说的多么多么好，其实很不对，董的那套理论不能限制皇权，反而是放大皇权，给了皇权《罪己招》以逃避责任的权力，又通过宗教性的天，伦理上的父赋予无限权力。由于成文法的缺失。儒家的那一套已经不适应帝国社会了，王朝周期律就是由经济危机引起的政治倒台，儒家把原因通过仁义道德给隐藏了。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>读书</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>杂记一</title>
+    <url>/2023/11/08/%E6%9D%82%E8%AE%B0%E4%B8%80-za-ji-yi/</url>
+    <content><![CDATA[<ol>
+<li>从A的观点来解说A不是B，不如从B的观点来解说A不是B。《庄子齐物论》以指喻指之非指。</li>
+<li>精英一方面害怕民主，一方面认识到民众的民主要求难以逆转。在这种背景下，谈“民主”的人多起来，“民主变革”也接踵而至。当然有产者对民主怀有极大的戒心。他们迫于形势不得不面对民主的潮流且战且退。但他们对自己的底线是身份清楚的，这就是要尽可能的维护私有产权。为此他们不得不“打着红旗反红旗”，用在民主前面加漂亮修饰词的方法来阉割民主、训话民主。我们常常看到“自由民主”“宪政民主”“代议民主”“程序民主”之类的提法，实际上这些修饰词都不是随便加上去的，而是一些人刻意加上去的。每个修饰词都是对民主的限制。有意思的是，在典籍充斥着对民主诅咒的时候，“民主”一词前面很少出现修饰词。一旦有产者和他们的代言人开始拥抱民主时，民主的本质没人谈了，大家谈的都是带修饰词的民主，而且修饰词比“民主”来得重要。—《民主四讲》。</li>
+<li>庄子以为，儒家之智不过草木旁出的枝叶，无可大用；儒家之礼，如同用胶漆来硬为粘合，不太可靠；儒家之仁不过如同中断之树，而强为联结，只重外表；儒家之义，不过垄断居奇的商人，巧用手段，只求售出其货。——《庄子今注今译》</li>
+<li>知识给人以力量，愚昧也给人以力量，有时甚至是更大的力量</li>
+</ol>
+]]></content>
+      <categories>
+        <category>读书</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>游戏有感</title>
+    <url>/2022/12/30/%E6%B8%B8%E6%88%8F%E6%9C%89%E6%84%9F-game/</url>
+    <content><![CDATA[<ol>
+<li>为啥有感呢，就是游戏看起来啥也没有但是真实</li>
+<li>啥游戏呢，名字就不说了，就自己标榜是传奇，手游<h3 id="体会"><a href="#体会" class="headerlink" title="体会"></a>体会</h3><ol>
+<li>这个游戏的资源靠的是黄金怪也野外boss，鼓励玩家互相攻击，所以第一个有意思的事情出现了，如果你想做一个任务如果装备和等级不行的话，站在那儿挂机会被杀的很惨，完不成任务。<ol start="2">
+<li>为了避免遇到这个蛋疼的问题又几个解决方案：(1)氪金开通会员地图，刚开始没多少人能开，提前进入会员地图能很多可能避免冲突。(2)快速升级，两个本需要材料合成，经验不少，打满需要氪金，到时候等级跑赢绝大部分玩家，就遇不到偷袭了。(3)氪金升级加搞装备，前期遇到氪金狠人，他挂机的地方一地尸体。</li>
+<li>由于游戏的资源来源于野外boss和黄金怪，这些资源约到后期越少，导致的结果就是处于大部队进度的玩家竞争非常激烈，抢怪击杀其他玩家在后期处于大部队的时候越是常见。</li>
+<li>这个游戏是有脚本的，但是我玩了一个月并没有发现举报入口，通过对聊天窗口的观察，真正玩这个游戏的并不会超过20人，脚本占据了大部分，这些脚本会抢夺各个地方的资源，杀人，导致正常首充或者不氪金的玩家很难稳定获取到资源。</li>
+<li>脚本刷的资源是卖給排行靠前的充钱玩家。</li>
+<li>脚本怀疑有官方脚本，主要怀疑来源是从开服开始，做每日任务的时候，最后一个任务差一两只黄金怪完成的时候，有一个盟的脚本会过来偷袭，一个月时间没有中断过。</li>
+<li>随着开服时间增加，低级地图的资源怪物刷新时间也会增加。</li>
+<li>每到一个等级阶段的时候，对应等级地图的资源怪物越来越需要奶的加成，否则需要来回几次打资源怪物。一般提升十级左右就可以自己打过了。</li>
+<li>这个游戏的首饰是通过完成首饰任务获得的，前期还行，后期每个首饰的获取只有三个公共boss出，导致这个竞争很激烈。解锁首饰属性需要大量的材料，一级42个，一个怪物掉一个。对你没想错这些材料可以购买的，大概一块钱一个，后期价格因为升级的人少会降下一些。</li>
+<li>本职业装备爆率异常低，本人一共刷到132件红字装备，本职业可用的6件，一共7件装备需要穿戴，且本职业装备从未从对应等级的黄金，野外boss出现过。根据工会成员的信息来看氪金数量可能影响装备爆率。</li>
+<li>不氪金的脚本容易被封号，氪金大概率可以避免这个问题，明着表示打压脚本，现实脚本比玩家多。</li>
+<li>屏蔽字特别多，很符合当下互联网，正常话语都无法说了。</li>
+<li>操作异常困难。游戏点击操作也很容易出现bug。游戏本人不喜欢，但是问了下游戏内玩家，靠的是情怀<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2>可以出游戏资源的怪物随着等级提升越需要奶妈一类职业，以及升级翅膀。<br>通过服务头部玩家的氪金养活两拨人，一个是官方，一个是脚本挂机刷资源的。<br>不适合普通玩家，资源抢不过脚本，等级也追不上，时间越长越明显。单机的话啥资源也没有。<br>比较适合的是情怀氪金玩家，脚本商人。<br>问了下氪金玩家，氪金程度不低，尤其跨服之后，作为游戏服务商来说成本比较低，毛利较高，是个好商业。<br>一个资源有限，竞争激烈的游戏会玩的只有几种人，1. 氪金玩家。2. 商人(脚本玩家)。3.官方(不知道套路的可以百度)。4. 情怀玩家，问了下大部分多少会磕点</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>game</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>笔记</title>
+    <url>/2023/06/04/%E7%AC%94%E8%AE%B0-bi-ji/</url>
+    <content><![CDATA[<ol>
+<li>要常记录分析，正确的经验，错误的经验都是宝贵的要对这些经验要客观分析</li>
+<li>多读书多做实践，仅靠读书难以解决实践中的问题</li>
+<li>路线错误了，不管付出多大的努力，结果总会是错误的</li>
+</ol>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>简历</title>
+    <url>/2022/09/17/%E7%AE%80%E5%8E%86-%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/</url>
+    <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><ul>
+<li>五年Java软件开发经验，熟悉 Spring boot，Mybatis，dubbo 等常用框架</li>
+<li>四年go语言开发经验，熟练使用go语言进行开发，有多年解决go项目问题经验</li>
+<li>四年分布式系统开发经验，四年分布式/高并发问题解决经验</li>
+<li>两年多线程开发经验</li>
+<li>有一年团队管理经验</li>
+<li>负责过多个项目核心功能设计与开发</li>
+<li>熟悉 HTTP、TCP/IP 协议</li>
+<li>熟悉 Redis，MySQL，mongo数据库</li>
+<li>熟悉docker， k8s</li>
+</ul>
+<h2 id="技能列表"><a href="#技能列表" class="headerlink" title="技能列表"></a>技能列表</h2><ul>
+<li><strong>编程语言</strong>：<code>Java</code>, <code>Golang</code>, <code>C/C++</code>，<code>js</code></li>
+<li><strong>开发框架</strong>：<code>Spring boot</code>,<code>MyBatis</code>,<code>dubbo</code>，<code>grpc-</code> </li>
+<li><strong>数据库：</strong> <code>MySQL</code>, <code>Redis</code>, <code>MongoDb</code></li>
+<li><strong>操作系统</strong>：<code>windows</code>, <code>Linux</code>, <code>Mac os</code></li>
+<li><strong>项目管理：</strong> <code>Snv</code>，<code>Git</code>，<code>gitlab</code>，<code>maven</code></li>
+<li><strong>其他技术：</strong> <code>zookeeper</code>，<code>Kafka</code>, <code>Nginx</code>，<code>Tomcat</code>，<code>Apollo</code>, <code>jenkins</code>,<code>docker</code></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>记录c/c++的一个坑</title>
+    <url>/2023/03/11/%E8%AE%B0%E5%BD%95cc++%E7%9A%84%E4%B8%80%E4%B8%AA%E5%9D%91-cc/</url>
+    <content><![CDATA[<p>先上代码</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;memory&gt;</span><br><span class="line">class t&#123;</span><br><span class="line"></span><br><span class="line">    private:</span><br><span class="line">        static std::unique_ptr&lt;t&gt; instance;</span><br><span class="line">        t() = default;</span><br><span class="line">    public:</span><br><span class="line">        static void init()&#123;instance.reset(new t());&#125;</span><br><span class="line">        static void quit()&#123;instance.reset();&#125;</span><br><span class="line">        static t&amp; getInstance()&#123;return *instance;&#125;</span><br><span class="line">        ~t()&#123;std::cout &lt;&lt; &quot;~t()&quot; &lt;&lt; std::endl;&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">std::unique_ptr&lt;t&gt; t::instance = nullptr;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line">    t::init();</span><br><span class="line">    if(true)&#123;</span><br><span class="line">        auto a = t::getInstance();</span><br><span class="line">    &#125;</span><br><span class="line">    t::quit();</span><br><span class="line">&#125;</span><br><span class="line">// output </span><br><span class="line">// ~t()</span><br><span class="line">// ~t()</span><br></pre></td></tr></table></figure>
+
+<p>这里有一个严重的bug那就是会析构函数会调用两次，解决方法就是将auto a修改为auto &amp;a，写auto进行类型推导的时候一定要注意这些</p>
+]]></content>
+      <categories>
+        <category>c/c++</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>部署本地ai翻译软件，需要电脑有一定的算力，就是免费</title>
+    <url>/2024/12/08/%E9%83%A8%E7%BD%B2%E6%9C%AC%E5%9C%B0ai%E7%BF%BB%E8%AF%91%E8%BD%AF%E4%BB%B6%EF%BC%8C%E9%9C%80%E8%A6%81%E7%94%B5%E8%84%91%E6%9C%89%E4%B8%80%E5%AE%9A%E7%9A%84%E7%AE%97%E5%8A%9B%EF%BC%8C%E5%B0%B1%E6%98%AF%E5%85%8D%E8%B4%B9-bu-shu-ben-de-ai-fan-yi-ruan-jian/</url>
+    <content><![CDATA[<ol>
+<li>安装<a href="https://github.com/ollama/ollama/releases/tag/v0.4.7">llama</a>需要修改安装位置则需要打开终端输入.\OllamaSetup.exe /DIR=”F:\ai\ollama” </li>
+<li>接着执行 ollama pull gemma2:9b</li>
+<li>谷歌浏览器可以安装插件<a href="https://immersivetranslate.com/zh-Hans/">沉浸式翻译</a></li>
+<li>电脑可以安装<a href="https://github.com/openai-translator/openai-translator">openai-translator</a> 设置下模型和地址就好</li>
+<li>也可以安装<a href="https://pot-app.com/">pot</a>在服务设置中添加即可</li>
+<li>单个单词的翻译建议用openai-translator。有需要其他功能的可以pot，翻译句子是一样的</li>
+<li>上面两个软件都支持<a href="https://apps.microsoft.com/detail/9npz2tvkjvt7?hl=zh-cn&gl=HK">SnipDo</a>就划词翻译体验来说比国产翻译软件那种划词好用多了，我用过的所有国产划词都有概率情况</li>
+<li>配置好开机启动就好了</li>
+</ol>
+]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>ai 翻译</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>跟着游戏学中文，学编程</title>
+    <url>/2022/12/30/%E8%B7%9F%E7%9D%80%E6%B8%B8%E6%88%8F%E5%AD%A6%E4%B8%AD%E6%96%87%EF%BC%8C%E5%AD%A6%E7%BC%96%E7%A8%8B-gen-zhe-you-xi-xue-zhong-wen--xue-bian-cheng/</url>
+    <content><![CDATA[<h4 id="“只”"><a href="#“只”" class="headerlink" title="“只”"></a>“只”</h4><p>有些游戏有几种buff，比如在指定概率内只出现指定的材料，装备，但是你的代码太老了牵一发动全身，那么这个“只”就有意思了，比如你这么实现：拦截或者修改装备或材料出现的接口，加入一个判断，是对应buff的就返回，不是就返回没有出现装备或材料，这样达到了低耦合代码，避免修改原始代码。完成了任务，避免修改出bug。不需要的时候可以直接删除不要。是不是很完美。反正没有客服，即使有我们也可以嘴硬。反正玩家好欺负。</p>
+<h4 id="“概率”"><a href="#“概率”" class="headerlink" title="“概率”"></a>“概率”</h4><p>很多人对概率有很大的误解，以为40%的概率就是10次成4次，100次成40次，成本应该比较固定的，那你的想法就错了，因为可以操作总数，比如你只强化一次装备概率是40，但是是100万的40，1000万的40，想要达成这个40的成本就不一样了，自己可已想象以下，失败的范围变大了，更容易出现，而且一旦涉及的单独概率更容易出现。这也是某些游戏看着概率提升，但是成功成本也提升的原因。只要样本数量足够多，能保证概率就是40，你又如何说概率不是40呢。</p>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>鲁迅全集1 摘录</title>
+    <url>/2023/10/31/%E9%B2%81%E8%BF%85%E5%85%A8%E9%9B%861%20%E6%91%98%E5%BD%95-lu-xun-quan-ji-1-zhai-lu/</url>
+    <content><![CDATA[<p>积善不报，终自欺人。 —— 《论睁了眼看》<br>我们一举一动虽似自主，其实多受死鬼的牵制。将我们一代的人，和先前几百代的鬼比起来，数目上就玩不能敌了。——《三十八》</p>
+]]></content>
+      <categories>
+        <category>读书</category>
+      </categories>
+  </entry>
+</search>
